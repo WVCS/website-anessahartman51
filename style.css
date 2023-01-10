@@ -1,3 +1,33 @@
-body {
+nav{
+  list-style-type:none;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
 
+li{
+  display: inline;
+  padding: 15px;
+  float: left;
+}
+li:hover{
+  background-color: lightPink;
+}
+
+a{
+  text-decoration: none;
+  color: indigo;
+}
+
+body{
+  background: lightBlue;
+}
+
+h2{
+  color: indigo;
+  text-align: center;
+  font-size: 51px;
+  text-shadow: 2px 2px 2px lightPink;
+  font-family: Garamond;
 }
